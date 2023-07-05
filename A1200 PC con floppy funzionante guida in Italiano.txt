@@ -1,0 +1,48 @@
+Prototipo A1200 Pc con unità floppy Guida alla costruzione
+
+Questo è il mio progetto A1200 pc con vero floppy drive funzionante. È un progetto molto modulare perché è possibile cambiare pezzi di computer tramite plug and play, cavi usb ecc. Se la chiavetta pc diventa obsoleta è possibile utilizzarne una nuova con nuovo sistema operativo e più spazio scambiandola all'interno del case. Nessuna saldatura richiesta.
+
+I link sono elementi compatibili e possono essere modificati con uno simile.  Ho usato per completare questo computer un:
+
+1) A1200.net Copercho bianco Amiga 1200 Coperchio - A1200.NET
+
+2) Keyrah per AMIGA and C64 Keyboard + suo cavo usb  Keyrah V3 - icomp - en
+
+3) Greaseweazle V4 Greaseweazle V4 - AMIGAstore.eu
+
+4) PC Stick SiComputer con windows 10 NiPoGi Mini PC Stick, Intel Celeron N4000 Computer PC Stick Windows 10 Pro, 4 GB DDR4 64 GB eMMC Stick PC Supporto 4K HDMI, Bluetooth, WiFi, Mini computer : Amazon.it: Videogiochi
+
+5) Un drive floppy AMIGA o PC a Amiga o PC Drive: Controllare i cavi che si acquistano con Greaseweazle non sono tutti uguali per pc e floppy AMIGA.  https://www.ebay.it/itm/134548140876?hash=item1f53b1b34c:g:9nIAAOSwwMBkSoSS&amda...
+
+6) 4 ports 2.0 USB HUB Amazon Basics - Ultra Mini Hub USB 2.0 a 4 porte : Amazon.it: Informatica
+
+7)Tastiera AMIGA 1200 o Kipper 2k Tastiera Commodore Amiga 1200 UK buone condizioni testata 957 ingiallita | eBay
+
+8) Software AMIGA FOREVER 10 Plus edition Amiga Forever - Amiga Software, Emulation, Games, History and Support Since 1986
+
+9) cavi USB and Hdmi  1 x Twozoh Cavo di estensione HDMI, HDMI maschio a femmina HDMI cavo, Nylon intrecciato HDMI Extender, HDMI 2.0 cavo adattatore supporto 4K a 60Hz 3D HDR (5M) : Amazon.it: Elettronica  -  3 x Lindy - Cavo Prolunga USB 2.0 Anthra Line 0.5 Metri, Connettore USB Tipo A Maschio a Femmina, Velocità di Trasferimento Dati Speed Fino a 480Mbps per Tastiera, Stampante, Fotocamera, Hard Disk : Amazon.it: Informatica
+
+10) Alimentatore Hard Disk con cavo Molex convertito a drive floppy 5-12 volts 2A power supply.  xTechnoMedia Alimentatore trasformatore Adattatore 12V 5V 2+2A Power Adapter connettore Molex HDD IDE Spina UE : Amazon.it: Informatica  -  1 x Comeap 4 pin LP4 5,25" Molex maschio a 3,5" floppy Drive 4 pin femmina FDD cavo adattatore di alimentazione 19 cm : Amazon.it: Informatica
+
+Questo computer avvia Windows 10 e quindi esegue l'interfaccia di Amiga Forever
+
+per eseguire ogni software AMIGA da HDD o immagine floppy o floppy reale.
+
+Questo e'un computer retro moderno, Se non sei almeno un tecnico hardware con una buona preparazione su hardware nuovo e vecchio non provare a costruire questo progetto.
+
+Istruzioni per la costruzione:
+Prendi la parte sotto del case e avvita la Keyrah, collega sul Keyrah il cavo led e il cavo piatto verde AMIGA Keyboard. Collegare il Keyrah all'hub usb 2.0 e inserirlo all'interno del case collegando l'hub all'usb della chiavetta Pc posizionando la chiavetta pc a metà strada all'interno di una porta destra del case sottostante. Inserire Greseweazle e collegare l'alimentatore floppy con il floppy molex all'unità floppy e non a Greaseweazle,
+rimuovere il cavo molex floppy Greaseweazle da esso. Non è necessario. Collegare Greaseweazle all'hub USB 2.0. e collegare il cavo ATA floppy grigio piatto all'unità floppy e Greaseweazle. Questo computer ha bisogno di due alimentatori divisi, uno per floppy e per pc stick collegato all'energia. Utilizzare la porta USB rimanente dell'hub USB 2.0 con cavi USB maschio a femmina di estensione per utilizzare periferiche esterne come pen drive del mouse, ecc.
+
+Configurazione Software 
+
+Installa Amiga Forever e registralo. Sotto Amiga Forever Menu selezionare Strumenti/Opzioni/Profili scorrere l'elenco fino a trovare Unità floppy Selezionare Floppy 1 fare clic su di esso e sotto PC device selezionare FloppyBridge Quindi premere Aggiungi e sotto Driver selezionare Greaseweazle. Sotto modalità (per me era buono più compatibile ma devi provare con il tuo disco). In Cable Select, selezionare il numero di unità utilizzato con lo strumento da riga di comando gw per l'unità per scrivere floppy ecc. Il mio era buono con il numero 0.
+Per eseguire un Floppy inserirlo nell'unità e sotto Workbench 1.3 o 3.1 in Systems Columns sotto Amiga Forever selezionare Modifica con il tasto destro andare su Media e in DF0 selezionare DD Image Drive e in DF1 selezionare Phisical Drive 1 a seconda del vostro floppy questo ordine
+può essere invertito per avere l'avvio automatico. In Configurazione/Compatibilità selezionare la velocità corretta per eseguire il dischetto alla velocita giusta.
+
+Questo progetto mi è costato un sacco di soldi tempo e fatica ho passato con esso una parte della mia vita, do la guida gratuitamente ma spero che tutti voi che mi seguite vi ricordiate di me in futuro e soprattutto nei miei momento più difficili.
+
+Grazie per aver letto
+Matteo
+
+Questo prototipo è registrato sotto licenza Creative Commons 4.0

@@ -1,0 +1,50 @@
+A1200 Pc Prototype with floppy drive Building Guide
+
+This is my project A1200 pc with real floppy drive working. It is a very modular project because you can change computer pieces by plug and play, usb cables etc. If the pc stick become obsolete you can use a new one with new Operating System and more space by swapping it inside the case. No soldering required.
+
+ I have used to complete this computer, the links are compatible items and can be changed with similar one. an:
+
+1) A1200.net white  Case Amiga 1200 Case - A1200.NET
+
+2) Keyrah for AMIGA and C64 Keyboard + his usb cable Keyrah V3 - icomp - en
+
+3) Greaseweazle V4 Greaseweazle V4 - AMIGAstore.eu
+
+4) PC Stick SiComputer with windows 10 NiPoGi Mini PC Stick, Intel Celeron N4000 Computer PC Stick Windows 10 Pro, 4 GB DDR4 64 GB eMMC Stick PC Supporto 4K HDMI, Bluetooth, WiFi, Mini computer : Amazon.it: Videogiochi
+
+5) An AMIGA or PC to Amiga conversion floppy Drive or a PC Drive: check the cables to buy for Greaseweazle they are not equal for pc and AMIGA Floppy.  https://www.ebay.it/itm/134548140876?hash=item1f53b1b34c:g:9nIAAOSwwMBkSoSS&amda...
+
+6) 4 ports 2.0 USB HUB Amazon Basics - Ultra Mini Hub USB 2.0 a 4 porte : Amazon.it: Informatica
+
+7) AMIGA 1200 or Kipper 2k Keyboard Tastiera Commodore Amiga 1200 UK buone condizioni testata 957 ingiallita | eBay
+
+8) Software AMIGA FOREVER 10 Plus edition Amiga Forever - Amiga Software, Emulation, Games, History and Support Since 1986
+
+9) USB and Hdmi cables 1 x Twozoh Cavo di estensione HDMI, HDMI maschio a femmina HDMI cavo, Nylon intrecciato HDMI Extender, HDMI 2.0 cavo adattatore supporto 4K a 60Hz 3D HDR (5M) : Amazon.it: Elettronica  -  3 x Lindy - Cavo Prolunga USB 2.0 Anthra Line 0.5 Metri, Connettore USB Tipo A Maschio a Femmina, Velocità di Trasferimento Dati Speed Fino a 480Mbps per Tastiera, Stampante, Fotocamera, Hard Disk : Amazon.it: Informatica
+
+10) Molex to HDD converted to floppy drive 5-12 volts 2A power supply.  xTechnoMedia Alimentatore trasformatore Adattatore 12V 5V 2+2A Power Adapter connettore Molex HDD IDE Spina UE : Amazon.it: Informatica  -  1 x Comeap 4 pin LP4 5,25" Molex maschio a 3,5" floppy Drive 4 pin femmina FDD cavo adattatore di alimentazione 19 cm : Amazon.it: Informatica
+
+This Computer boot Windows 10 and then run the Amiga Forever interface
+
+to run every AMIGA software from HDD or floppy image or real floppy.
+
+
+This is a retro-modern Computer, If you are not at least an Hardware Technician with good preparation on new and old hardware dont try to build this project.
+
+Building Instructions:
+
+Take the buttom case part and screw the Keyrah, connect on Keyrah the leds cable and the flat green AMIGA Keyboard cable.Connect the Keyrah to the usb 2.0 hub and insert it inside the case connecting the hub to the usb of the Pc stick positioning the pc stick half a way inside a right port of the buttom case. Insert the Greseweazle and connect the floppy power supply with the floppy molex to floppy drive and not to Greaseweazle, remove  the Greaseweazle floppy molex cable from it. It is not necessary anymore. Connect Greaseweazle to the 2.0 usb hub. and Connect the flat grey ata cable to floppy drive and Greaseweazle. This computer needs two divided  power supply, one for floppy and for pc stick connected to energy. Use the remaining usb port of usb 2.0 hub with extension male to female usb cables to use external peripherials like mouse pen drive etc.
+
+Software Configuration
+
+Install Amiga Forever and register it. Under Amiga Forever Menu select Tools/Options/Profiles scroll the list till you find Floppy Drives Select Floppy 1 click over it and under PC device select FloppyBridge Then push Add and under Driver Select Greaseweazle. Under Mode (for me was good more compatible but you have to try with your disk). Under Cable Select, select the drive number that you use with gw command line tool for your drive to write floppy etc. Mine was good with number 0.
+
+To run a Floppy insert it in the drive and under workbench 1.3 or 3.1 in Systems Columns under Amiga Forever select Edit with right click go to Media and in DF0 select DD Image Drive and in DF1 Select Phisical Drive 1 depending on your floppy this order can be inverted to have autoboot. Under Configuration/Compatibility select the right speed to run the floppy at the right timings.
+
+This Project costed me a lot of money time and effort i passed with it a part of my life, i give the guide for free but i hope you all who follow me to remember me in the future in my most difficult moment.
+
+Thank you for reading
+
+Matteo
+
+This Prototype is registered under Creative Commons License 4.0
